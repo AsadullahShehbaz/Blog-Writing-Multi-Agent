@@ -8,14 +8,13 @@
 # ── 1. ORCHESTRATION FRAMEWORK ──────────────────────────────
 # graph/builder.py: StateGraph, START, END
 # graph/fanout.py:  Send API for parallel worker dispatch
-langgraph==1.0.3
+langgraph
 
 # Internal checkpointing used by langgraph at runtime
-langgraph-checkpoint==3.0.0
+langgraph-checkpoint
 
 # Prebuilt components (ToolNode, etc.) used by langgraph internals
-langgraph-prebuilt==1.0.2
-
+langgraph-prebuilt
 # ── 2. LLM BRAIN — GPT-4.1-mini ─────────────────────────────
 # utils/__init__.py: ChatOpenAI(model="gpt-4.1-mini")
 # nodes/router.py, orchestrator.py, worker.py: llm.invoke(...)
@@ -24,7 +23,7 @@ langchain-groq
 
 # Base abstractions (SystemMessage, HumanMessage, BaseMessage)
 # used in every node's prompt construction
-langchain-core==1.2.6
+langchain-core
 
 # ── 3. WEB SEARCH — TAVILY ──────────────────────────────────
 # nodes/research.py: tavily_search(query, max_results=6)
