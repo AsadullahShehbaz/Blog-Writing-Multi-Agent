@@ -237,7 +237,7 @@ if not raw_results:
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/your-username/autoblog-multiagent-langgraph.git
+git clone https://github.com/AsadullahShehbaz/autoblog-multiagent-langgraph.git
 cd autoblog-multiagent-langgraph
 pip install -r requirements.txt
 ```
@@ -352,7 +352,7 @@ MIT License — free to use, modify, and deploy.
 
 *8th Semester BSCS · Kaggle Notebook Master · Dataset Grandmaster*
 
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github)](https://github.com/your-username)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github)](https://github.com/asadullahcreative)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/your-profile)
 [![Kaggle](https://img.shields.io/badge/Kaggle-Profile-20BEFF?style=flat-square&logo=kaggle)](https://kaggle.com/your-username)
 
